@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS shoes
+(
+  id   INT AUTO_INCREMENT  PRIMARY KEY,
+  shoe_size INT
+);
+
+CREATE TABLE IF NOT EXISTS jerseys
+(
+  id INT AUTO_INCREMENT,
+  jersey_color VARCHAR(25), PRIMARY KEY (id)
+);
